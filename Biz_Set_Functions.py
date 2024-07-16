@@ -67,26 +67,27 @@ def replace_town_with_region(df,column):
     return df[column].map(lambda x: puerto_rico_regions.get(str(x), x))
 
 
-def replace_code_with_town(df, column)
+def replace_code_with_town(df, column):
 
-pr_towns = {
-    '001': 'Adjuntas', '003': 'Aguada', '005': 'Aguadilla', '007': 'Aguas Buenas', '009': 'Aibonito',
-    '011': 'Anasco', '013': 'Arecibo', '015': 'Arroyo', '017': 'Barceloneta', '019': 'Barranquitas',
-    '021': 'Bayamon', '023': 'Cabo Rojo', '025': 'Caguas', '027': 'Camuy', '029': 'Canovanas',
-    '031': 'Carolina', '033': 'Catano', '035': 'Cayey', '037': 'Ceiba', '039': 'Ciales',
-    '041': 'Cidra', '043': 'Coamo', '045': 'Comerio', '047': 'Corozal', '049': 'Culebra',
-    '051': 'Dorado', '053': 'Fajardo', '054': 'Florida', '055': 'Guanica', '057': 'Guayama',
-    '059': 'Guayanilla', '061': 'Guaynabo', '063': 'Gurabo', '065': 'Hatillo', '067': 'Hormigueros',
-    '069': 'Humacao', '071': 'Isabela', '073': 'Jayuya', '075': 'Juana Diaz', '077': 'Juncos',
-    '079': 'Lajas', '081': 'Lares', '083': 'Las Marias', '085': 'Las Piedras', '087': 'Loiza',
-    '089': 'Luquillo', '091': 'Manati', '093': 'Maricao', '095': 'Maunabo', '097': 'Mayaguez',
-    '099': 'Moca', '101': 'Morovis', '103': 'Naguabo', '105': 'Naranjito', '107': 'Orocovis',
+    pr_towns = {
+    '1': 'Adjuntas', '3': 'Aguada', '5': 'Aguadilla', '7': 'Aguas Buenas', '9': 'Aibonito',
+    '11': 'Anasco', '13': 'Arecibo', '15': 'Arroyo', '17': 'Barceloneta', '19': 'Barranquitas',
+    '21': 'Bayamon', '23': 'Cabo Rojo', '25': 'Caguas', '27': 'Camuy', '29': 'Canovanas',
+    '31': 'Carolina', '33': 'Catano', '35': 'Cayey', '37': 'Ceiba', '39': 'Ciales',
+    '41': 'Cidra', '43': 'Coamo', '45': 'Comerio', '47': 'Corozal', '49': 'Culebra',
+    '51': 'Dorado', '53': 'Fajardo', '54': 'Florida', '55': 'Guanica', '57': 'Guayama',
+    '59': 'Guayanilla', '61': 'Guaynabo', '63': 'Gurabo', '65': 'Hatillo', '67': 'Hormigueros',
+    '69': 'Humacao', '71': 'Isabela', '73': 'Jayuya', '75': 'Juana Diaz', '77': 'Juncos',
+    '79': 'Lajas', '81': 'Lares', '83': 'Las Marias', '85': 'Las Piedras', '87': 'Loiza',
+    '89': 'Luquillo', '91': 'Manati', '93': 'Maricao', '95': 'Maunabo', '97': 'Mayaguez',
+    '99': 'Moca', '101': 'Morovis', '103': 'Naguabo', '105': 'Naranjito', '107': 'Orocovis',
     '109': 'Patillas', '111': 'Penuelas', '113': 'Ponce', '115': 'Quebradillas', '117': 'Rincon',
     '119': 'Rio Grande', '121': 'Sabana Grande', '123': 'Salinas', '125': 'San German', '127': 'San Juan',
     '129': 'San Lorenzo', '131': 'San Sebastian', '133': 'Santa Isabel', '135': 'Toa Alta', '137': 'Toa Baja',
     '139': 'Trujillo Alto', '141': 'Utuado', '143': 'Vega Alta', '145': 'Vega Baja', '147': 'Vieques',
     '149': 'Villaba', '151': 'Yabucoa', '153': 'Yauco', '999': 'Statewide'
-}
+    }
+
 
     # Replace the code with its corresponding town
     return df[column].map(lambda x: puerto_rico_regions.get(str(x), x))
