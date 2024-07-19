@@ -1,0 +1,31 @@
+For this project we focused on the NAIC codes in large sectors, focusing on the first 2 digit characterization of each code.
+
+This is a list of what the codes mean in our context:
+
+11: Agriculture, Forestry, Fishing and Hunting
+21: Mining, Quarrying, and Oil and Gas Extraction
+22: Utilities
+23: Construction (services, not supplies)
+31: Manufacturing food and beverage
+32: Manufacturing wood products
+33: Manufacturing metals, steels etc.
+42: Wholesale Trade
+44: Retail Trade cards, parts, building and garden, food and bev, grocery stores, furniture, electronics, appliances etc.
+45: Retail Trade department stores, warehouse clubs, health and personal care, gasoline, clothing, shoes, jewelry, sports books and other misc.
+48: Transportation and Warehousing air, rail, water, gen freight
+49: Transportation and Warehousing postal, couriers, messengers, warehouse storage
+51: Information movies, music, newspapers, software, telecommunications etc.
+52: Finance and Insurance
+53: Real Estate and Rental and Leasing
+54: Professional, Scientific, and Technical Services
+55: Management of Companies and Enterprises
+56: Administrative and Support and Waste Management and Remediation Services
+61: Educational Services
+62: Health Care and Social Assistance
+71: Arts, Entertainment, and Recreation
+72: Accommodation and Food Services
+81: Other Services (except Public Administration)
+92: Public Administration
+
+
+The official website for this info with full details on each industry is https://www.census.gov/naics

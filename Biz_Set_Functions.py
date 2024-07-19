@@ -90,6 +90,6 @@ def replace_code_with_town(df, column):
 
 
     # Replace the code with its corresponding town
-    return df[column].map(lambda x: puerto_rico_regions.get(str(x), x))
+    return df[column].map(lambda x: pr_towns.get(str(x), x))
 
 
