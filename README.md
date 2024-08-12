@@ -43,6 +43,7 @@ The final data set consists of the following columns:
 ## Methodology
 - Used Python (Pandas, NumPy and my own functions) for data manipulation.
 - Visualized trends with Matplotlib and Seaborn.
+- Visualized in PowerBi
 
 ## Results
 ### Key Findings
@@ -53,7 +54,7 @@ The final data set consists of the following columns:
 - Every town in each region with the largest number of establishments saw the largest decreases from 2017-2020. Generally speaking, the rest of the towns remained consistent or even saw slight increases in establishments by the end of the decade.
 
 ### Visualizations
-
+Visualizations were created in PowerBI and can be accessed here: deeper-dive-visualizations.pbix 
 
 ### Interpretation
 The data suggests a correlation between the impact of COVID-19 and the geographic distribution of business establishments. COVID-19 may have played a significant role in the decline in large industries within highly populated areas, which in turn created opportunities for less populated regions and towns to either maintain their number of establishments or even experience a slight increase. In some cases, these smaller areas saw notable improvements, indicating a shift in economic activity away from traditional urban centers during the pandemic.
