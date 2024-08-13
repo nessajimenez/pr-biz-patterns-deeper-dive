@@ -1,6 +1,6 @@
 
 # Puerto Rico Business Establishment (2013-2022): A deeper dive
-A deeper dive into Puerto Rico business establishment patterns from 2013 to 2022 by Vanessa Jimenez based on the original analysis by Vanessa Jimenez and Danielle Steede.
+A deeper dive into Puerto Rico business establishment patterns from 2013 to 2022 by Vanessa Jimenez based on the [original analysis](https://github.com/nessajimenez/pr-biz-patterns) by Vanessa Jimenez and Danielle Steede.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -8,15 +8,16 @@ A deeper dive into Puerto Rico business establishment patterns from 2013 to 2022
 3. [Methodology](#methodology)
 4. [Results](#results)
 5. [Project Structure](#project-structure)
-6. [Challenges and Limitations](#challenges-and-limitations)
-7. [Further Questions](#further-questions)
-8. [Contributions](#contributions)
+6. [Further Questions](#further-questions)
+7. [Challenges and Limitations](#challenges-and-limitations)
 
 
 ## Project Overview
 This project delves into a decade of census data to uncover the shifting landscape of business establishments across Puerto Rico from 2013 to 2022. Moving beyond the broad island-wide analysis of the first phase, this study zeroes in on the differences between regions and towns, exploring the unique factors that shape each area's business environment. By honing in on these local nuances, I aim to illuminate the impact of significant events like Hurricane Maria and the Covid-19 pandemic, revealing how these challenges have reshaped business trends and patterns across the island.
 
 To achieve this, I conducted a comparison of graphs representing various industries by region and town. Through these visualizations, I identified key trends and shifts in business establishments over time. I then cross-referenced these trends with major events—specifically, Hurricane Maria in 2017 and the onset of the Covid-19 pandemic in 2020—to assess their potential impact on the business landscape. This method allowed me to pinpoint how these disruptions may have influenced specific industries and regions, offering insights into the resilience and vulnerabilities of Puerto Rico’s local economies.
+
+This project builds on the first phase conducted here: [PR Biz Patterns](https://github.com/nessajimenez/pr-biz-patterns)
 
 
 ## Data
@@ -62,21 +63,34 @@ The data suggests a correlation between the impact of COVID-19 and the geographi
 Similarly, the data also suggests a correlation between the impact of Hurricane Maria and the geographic distribution of business establishments, albeit with a more subtle effect. While there was a noticeable decrease in establishments in 2017, it is not as dramatic as the dip observed during 2020. The downward trend in the number of establishments had already begun before Hurricane Maria struck in 2017, with the mountain towns being disproportionately affected over time compared to other regions.
 
 ### Further questions
-Do health emergencies themselves have a more intense impact on economies than natural disasters, or is it the response to each of these that played a bigger role?
+Do health emergencies themselves have a more intense impact on economies than natural disasters, or is it the response to each of these that plays a bigger role?
 
 Would a more even distribution of establishments across the island have made businesses more resilient to COVID-19? Only the most densely populated areas saw the worse decrease while other regions saw no change at all (or even saw growth!). What does this tell us about the relationship between distribution and resilience and what opportunities does that open up for the smaller towns? 
+
+What opportunities does this open up for towns with smaller economies and how can they benefit?
 
 
 ## Project Structure
 /pr-biz-patterns-deeper-dive
-├── /Data Sets
-│   ├── raw data csv's
+
+├── /Data Sets│   
+
+├── raw data csv's
+
 ├── Clean and Concat DFs.ipynb
+
 ├── EDA by Industry.ipynb
+
 ├── EDA by Region and Town.ipynb
+
 ├── full_clean_df.pkl
+
 ├── Metadata NAIC code reference.txt
+
 ├── pr_biz_dataset_clean.csv
+
+├── deeper-dive-visualizations.pbix 
+
 └── README.md
 
 ## Challenges and Limitations
